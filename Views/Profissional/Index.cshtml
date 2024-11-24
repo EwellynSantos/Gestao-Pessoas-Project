@@ -1,5 +1,5 @@
 ﻿@page
-@model CludeProject.Views.Profissional.IndexModel
+@model List<CludeProject.Models.ProfissionalModel>
 @{
 }
 
@@ -20,27 +20,23 @@
                     <th>Tipo do Documento</th>
                     <th>Número do Documento</th>
                     <th>Ações</th>
+
                 </tr>
             </thead>
             <tbody>
-
-                <tr>
-                    <td>1</td>
-                    <td>Nome</td>
-                    <td>Especialidade</td>
-                    <td>Tipo</td>
-                    <td>Doc</td>
-                    <td>act</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Nome</td>
-                    <td>Especialidade</td>
-                    <td>Tipo</td>
-                    <td>Doc</td>
-                    <td>act</td>
-                </tr>
-
+                @if (Model != null && Model.Any()){
+                    @foreach (var profissional in Model)
+                    {
+                        <tr>
+                            <td>@profissional.Id ?? "Sem nome"</td>
+                            <td>@profissional.Nome ?? "Sem nome"</td>
+                            <td>@profissional.Especialidade?.Nome ?? "Sem nome"</td>
+                            <td>@profissional.Especialidade?.TipoDocumento ?? "Sem nome"</td>
+                            <td>@profissional.NumeroDocumento ?? "Sem nome"</td>
+                        </tr>
+                    }
+                }
+                
             </tbody>
         </table>
     </div>

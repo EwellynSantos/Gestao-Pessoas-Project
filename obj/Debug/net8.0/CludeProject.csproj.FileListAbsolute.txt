@@ -453,3 +453,4 @@ C:\Users\Pichau\Documents\PROJETOS\ProjetoEntrevista\CludeProject\CludeProject\o
 C:\Users\Pichau\Documents\PROJETOS\ProjetoEntrevista\CludeProject\CludeProject\obj\Debug\net8.0\CludeProject.pdb
 C:\Users\Pichau\Documents\PROJETOS\ProjetoEntrevista\CludeProject\CludeProject\obj\Debug\net8.0\CludeProject.genruntimeconfig.cache
 C:\Users\Pichau\Documents\PROJETOS\ProjetoEntrevista\CludeProject\CludeProject\obj\Debug\net8.0\ref\CludeProject.dll
+C:\Users\Pichau\Documents\PROJETOS\ProjetoEntrevista\CludeProject\CludeProject\obj\Debug\net8.0\CludeProject.sourcelink.json

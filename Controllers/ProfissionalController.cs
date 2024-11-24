@@ -1,5 +1,6 @@
 ﻿using CludeProject.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
 namespace CludeProject.Controllers
@@ -15,7 +16,16 @@ namespace CludeProject.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var profissionais = _context.Profissionals
+                .Include(p => p.Especialidade)
+                .ToList();
+
+            if (profissionais == null || !profissionais.Any())
+            {
+                ViewBag.Message = "Nenhum profissional encontrado.";
+            }
+
+            return View(profissionais);
         }
 
         //public IActionResult Index()
