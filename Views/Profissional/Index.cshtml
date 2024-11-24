@@ -1,0 +1,66 @@
+﻿@page
+@model CludeProject.Views.Profissional.IndexModel
+@{
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between mb-4">
+        <button class="btn btn-filter-custom">Filtrar por: Todos</button>
+        <button class="btn btn-add-custom">Adicionar +</button>
+    </div>
+
+
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Nome</th>
+                    <th>Especialidade</th>
+                    <th>Tipo do Documento</th>
+                    <th>Número do Documento</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <td>Nome</td>
+                    <td>Especialidade</td>
+                    <td>Tipo</td>
+                    <td>Doc</td>
+                    <td>act</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nome</td>
+                    <td>Especialidade</td>
+                    <td>Tipo</td>
+                    <td>Doc</td>
+                    <td>act</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+    </nav>
+</div>
