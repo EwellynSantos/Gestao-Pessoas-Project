@@ -1,0 +1,37 @@
+﻿@model CludeProject.Models.ProfissionalModel
+
+
+<div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="createModalLabel">Cadastrar Profissional</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="createForm" method="post" action="@Url.Action("Create", "Profissional")">
+                    <div class="mb-3">
+                        <label for="nomeCreate" class="form-label">Nome do Profissional</label>
+                        <input type="text" class="form-control" id="nomeCreate" name="nome" placeholder="Digite o nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="especialidadeCreate" class="form-label">Especialidade</label>
+                        <input type="text" class="form-control" id="especialidadeCreate" name="especialidade" placeholder="Selecione a especialidade" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tipoDocumentoCreate" class="form-label">Tipo do Documento</label>
+                        <input type="text" class="form-control" id="tipoDocumentoCreate" name="tipoDocumento" placeholder="Digite o tipo" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="numeroDocumentoCreate" class="form-label">Número do Documento</label>
+                        <input type="text" class="form-control" id="numeroDocumentoCreate" name="numeroDocumento" placeholder="Digite o número" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-add-custom">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>

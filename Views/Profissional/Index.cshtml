@@ -1,12 +1,23 @@
-﻿@page
-@model List<CludeProject.Models.ProfissionalModel>
+﻿@using CludeProject.Models
+
 @{
+    ViewData["Title"] = "Profissionais";
+    var profissionais = ViewData["Profissionais"] as List<ProfissionalModel>;
 }
+
+@Html.Partial("_CreateModal")
+@foreach (var profissional in profissionais)
+{
+    @Html.Partial("_EditModal", profissional)
+    @Html.Partial("_DeleteModal", profissional)
+}
+
+
 
 <div class="container mt-5">
     <div class="d-flex justify-content-between mb-4">
-        <button class="btn btn-filter-custom">Filtrar por: Todos</button>
-        <button class="btn btn-add-custom">Adicionar +</button>
+        <button class="btn btn-filter-custom no-focus">Filtrar por: Todos</button>
+        <button class="btn btn-add-custom no-focus" data-bs-toggle="modal" data-bs-target="#createModal">Adicionar +</button>
     </div>
 
 
@@ -23,21 +34,30 @@
 
                 </tr>
             </thead>
-            <tbody>
-                @if (Model != null && Model.Any()){
-                    @foreach (var profissional in Model)
-                    {
-                        <tr>
-                            <td>@profissional.Id ?? "Sem nome"</td>
-                            <td>@profissional.Nome ?? "Sem nome"</td>
-                            <td>@profissional.Especialidade?.Nome ?? "Sem nome"</td>
-                            <td>@profissional.Especialidade?.TipoDocumento ?? "Sem nome"</td>
-                            <td>@profissional.NumeroDocumento ?? "Sem nome"</td>
-                        </tr>
-                    }
+             <tbody>
+                @foreach (var profissional in profissionais)
+                {
+                    <tr>
+                        <td>@profissional.Id</td>
+                        <td>@profissional.Nome</td>
+                        <td>@profissional.Especialidade?.Nome</td>
+                        <td>@profissional.Especialidade?.TipoDocumento</td>
+                        <td>@profissional.NumeroDocumento</td>
+                        <td>
+                            <div class="dropdown dropstart">
+                                <button class="btn btn-link p-0 border-0 bg-transparent no-focus" type="button" id="dropdownActions" data-bs-toggle="dropdown" aria-expanded="false" >
+                                    <i class="bi bi-three-dots-vertical focus:outline-none" style="color: black;"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownActions">
+                                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#editModal" onclick="openEditModal(@profissional.Id, '@profissional.Nome', '@profissional.Especialidade?.Nome')">Editar</a></li>
+                                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal" onclick="setDeleteId(@profissional.Id)">Excluir</a></li>
+                                </ul>
+                            </div>
+                        </td>
+
+                    </tr>
                 }
-                
-            </tbody>
+             </tbody> 
         </table>
     </div>
 
@@ -60,3 +80,5 @@
     </ul>
     </nav>
 </div>
+
+<script src="~/js/modais.js"></script>

@@ -85,6 +85,51 @@
       ]
     },
     {
+      "Route": "css/site.1a2kbqs7v1.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d6TWp1yHdpTKj2q4IB6V5rPDehrEz0KtJQ+HKLhbzLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 20:03:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1a2kbqs7v1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d6TWp1yHdpTKj2q4IB6V5rPDehrEz0KtJQ+HKLhbzLA="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
@@ -99,7 +144,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "967"
+          "Value": "1034"
         },
         {
           "Name": "Content-Type",
@@ -107,62 +152,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+jByl9Hwb5cH7IRPNv/lMG2iKwCcj5famE/sOMnya7M=\""
+          "Value": "\"d6TWp1yHdpTKj2q4IB6V5rPDehrEz0KtJQ+HKLhbzLA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 00:39:55 GMT"
+          "Value": "Sun, 24 Nov 2024 20:03:28 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+jByl9Hwb5cH7IRPNv/lMG2iKwCcj5famE/sOMnya7M="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.i26t17545c.css",
-      "AssetFile": "css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "967"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+jByl9Hwb5cH7IRPNv/lMG2iKwCcj5famE/sOMnya7M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 00:39:55 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "i26t17545c"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+jByl9Hwb5cH7IRPNv/lMG2iKwCcj5famE/sOMnya7M="
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
+          "Value": "sha256-d6TWp1yHdpTKj2q4IB6V5rPDehrEz0KtJQ+HKLhbzLA="
         }
       ]
     },
@@ -327,6 +327,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-gFGHb9fTGYAvWUPrTDgYt3adEDs5krvQWs7byfEmuiw="
+        }
+      ]
+    },
+    {
+      "Route": "js/modais.js",
+      "AssetFile": "js/modais.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/2gWklzA35ECLSGyk2AzJ+Ysxppkp561elNoF9nR6xw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 22:08:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/2gWklzA35ECLSGyk2AzJ+Ysxppkp561elNoF9nR6xw="
+        }
+      ]
+    },
+    {
+      "Route": "js/modais.zf85rpb4uq.js",
+      "AssetFile": "js/modais.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/2gWklzA35ECLSGyk2AzJ+Ysxppkp561elNoF9nR6xw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 22:08:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zf85rpb4uq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/2gWklzA35ECLSGyk2AzJ+Ysxppkp561elNoF9nR6xw="
+        },
+        {
+          "Name": "label",
+          "Value": "js/modais.js"
         }
       ]
     },

@@ -36,16 +36,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pichau/Documents/PROJETOS/ProjetoEntrevista/CludeProject/CludeProject/Views/Profissional/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlzc2lvbmFsXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Pichau/Documents/PROJETOS/ProjetoEntrevista/CludeProject/CludeProject/Views/Profissional/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlzc2lvbmFsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Pichau/Documents/PROJETOS/ProjetoEntrevista/CludeProject/CludeProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Documents/PROJETOS/ProjetoEntrevista/CludeProject/CludeProject/Views/Shared/_ActionButtonPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BY3Rpb25CdXR0b25QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Documents/PROJETOS/ProjetoEntrevista/CludeProject/CludeProject/Views/Shared/_CreateModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DcmVhdGVNb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Documents/PROJETOS/ProjetoEntrevista/CludeProject/CludeProject/Views/Shared/_DeleteModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZWxldGVNb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Documents/PROJETOS/ProjetoEntrevista/CludeProject/CludeProject/Views/Shared/_EditModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FZGl0TW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Pichau/Documents/PROJETOS/ProjetoEntrevista/CludeProject/CludeProject/Views/Shared/_ValidationScriptsPartial.cshtml]

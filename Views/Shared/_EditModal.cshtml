@@ -1,0 +1,37 @@
+﻿@model CludeProject.Models.ProfissionalModel
+
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="editModalLabel">Editar Profissional</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="editForm">
+                    <input type="hidden" id="profissionalId" value="@Model.Id">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome do Profissional</label>
+                        <input type="text" class="form-control" id="nome" name="nome" value="@Model.Nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="especialidade" class="form-label">Especialidade</label>
+                        <input type="text" class="form-control" id="especialidade" name="especialidade" value="@Model.Especialidade?.Nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="tipoDocumento" class="form-label">Tipo do Documento</label>
+                        <input type="text" class="form-control" id="tipodocumento" name="tipodocumento" value="@Model.Especialidade?.TipoDocumento">
+                    </div>
+                    <div class="mb-3">
+                        <label for="numeroDocumento" class="form-label">Número do Documento</label>
+                        <input type="text" class="form-control" id="especialidade" name="especialidade" value="@Model.NumeroDocumento">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-add-custom" id="saveEdit">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>

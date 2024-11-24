@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\imagens\\user.png"
     },
     {
+      "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\modais.js",
+      "PackagePath": "staticwebassets\\js\\modais.js"
+    },
+    {
       "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

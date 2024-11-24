@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CludeProject.Views.Profissional
+namespace CludeProject.Views.Shared
 {
-    public class ModalCreateModel : PageModel
+    public class _CreateModalPartialModel : PageModel
     {
         public void OnGet()
         {
