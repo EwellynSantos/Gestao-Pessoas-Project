@@ -22,7 +22,7 @@ ASP.NET Core e estilização com Bootstrap.
 
 ## Configuração do Projeto
 
-###Pré-requisitos
+### Pré-requisitos
 Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 - [SDK do .NET Core](https://dotnet.microsoft.com/download) (versão mínima 6.0)
 - [Visual Studio](https://visualstudio.microsoft.com/) ou [VS Code](https://code.visualstudio.com/)
