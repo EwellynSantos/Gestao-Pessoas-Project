@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2LySGIfO//m5K9wh74kpQb7BYglzL6ccV/UpFUqdydQ=",
+  "Hash": "8hsaoiUANFnDOFVeamRXeOMutTbkSxBm9OiXxFug19c=",
   "Source": "CludeProject",
   "BasePath": "_content/CludeProject",
   "Mode": "Default",
@@ -122,12 +122,12 @@
       "OriginalItemSpec": "wwwroot\\imagens\\user.png"
     },
     {
-      "Identity": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\modais.js",
+      "Identity": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Filtros\\filtro.js",
       "SourceId": "CludeProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\",
       "BasePath": "_content/CludeProject",
-      "RelativePath": "js/modais#[.{fingerprint}]?.js",
+      "RelativePath": "js/Scripts/Filtros/filtro#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -136,19 +136,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8md91aaru5",
-      "Integrity": "MBbkWq00UFdT4JITqs0xI8Q2Wxbstq0hBDk0TMr6/Ng=",
+      "Fingerprint": "m93yl26pz0",
+      "Integrity": "9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp+wTuCa8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\modais.js"
+      "OriginalItemSpec": "wwwroot\\js\\Scripts\\Filtros\\filtro.js"
     },
     {
-      "Identity": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\select.js",
+      "Identity": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Modais\\modais.js",
       "SourceId": "CludeProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\",
       "BasePath": "_content/CludeProject",
-      "RelativePath": "js/select#[.{fingerprint}]?.js",
+      "RelativePath": "js/Scripts/Modais/modais#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -157,11 +157,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3r8b2a0bt1",
-      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "Fingerprint": "ts5jgej8po",
+      "Integrity": "Hdy1RTZRJwtuFOK2NWMu2PSSI6MWemUqgo+sNW9lWl8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\select.js"
+      "OriginalItemSpec": "wwwroot\\js\\Scripts\\Modais\\modais.js"
+    },
+    {
+      "Identity": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Requisicoes\\requisicoes.js",
+      "SourceId": "CludeProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\",
+      "BasePath": "_content/CludeProject",
+      "RelativePath": "js/Scripts/Requisicoes/requisicoes#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mhbzbwk0q0",
+      "Integrity": "6s8epWDOq+cIJon90l0lP/pCkHVlnecRmXOD/cbCYnM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Scripts\\Requisicoes\\requisicoes.js"
+    },
+    {
+      "Identity": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Selecao\\selecao.js",
+      "SourceId": "CludeProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\",
+      "BasePath": "_content/CludeProject",
+      "RelativePath": "js/Scripts/Selecao/selecao#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1m5j3relwc",
+      "Integrity": "KfKHnhL4uNcCrI4IFgqJutyYqsZtUvNcjv52ZV7CifM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Scripts\\Selecao\\selecao.js"
     },
     {
       "Identity": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\site.js",
@@ -183,27 +225,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
-    },
-    {
-      "Identity": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\submits.js",
-      "SourceId": "CludeProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\",
-      "BasePath": "_content/CludeProject",
-      "RelativePath": "js/submits#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3r8b2a0bt1",
-      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\submits.js"
     },
     {
       "Identity": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -1815,8 +1836,8 @@
       ]
     },
     {
-      "Route": "js/modais.8md91aaru5.js",
-      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\modais.js",
+      "Route": "js/Scripts/Filtros/filtro.js",
+      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Filtros\\filtro.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1825,7 +1846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4156"
+          "Value": "1504"
         },
         {
           "Name": "Content-Type",
@@ -1833,56 +1854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MBbkWq00UFdT4JITqs0xI8Q2Wxbstq0hBDk0TMr6/Ng=\""
+          "Value": "\"9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp+wTuCa8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 14:45:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8md91aaru5"
-        },
-        {
-          "Name": "label",
-          "Value": "js/modais.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-MBbkWq00UFdT4JITqs0xI8Q2Wxbstq0hBDk0TMr6/Ng="
-        }
-      ]
-    },
-    {
-      "Route": "js/modais.js",
-      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\modais.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4156"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MBbkWq00UFdT4JITqs0xI8Q2Wxbstq0hBDk0TMr6/Ng=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 14:45:07 GMT"
+          "Value": "Mon, 25 Nov 2024 16:22:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1892,13 +1868,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MBbkWq00UFdT4JITqs0xI8Q2Wxbstq0hBDk0TMr6/Ng="
+          "Value": "sha256-9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp+wTuCa8="
         }
       ]
     },
     {
-      "Route": "js/select.3r8b2a0bt1.js",
-      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\select.js",
+      "Route": "js/Scripts/Filtros/filtro.m93yl26pz0.js",
+      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Filtros\\filtro.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1907,7 +1883,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3"
+          "Value": "1504"
         },
         {
           "Name": "Content-Type",
@@ -1915,11 +1891,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+          "Value": "\"9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp+wTuCa8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 11:44:27 GMT"
+          "Value": "Mon, 25 Nov 2024 16:22:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1929,21 +1905,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3r8b2a0bt1"
+          "Value": "m93yl26pz0"
         },
         {
           "Name": "label",
-          "Value": "js/select.js"
+          "Value": "js/Scripts/Filtros/filtro.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+          "Value": "sha256-9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp+wTuCa8="
         }
       ]
     },
     {
-      "Route": "js/select.js",
-      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\select.js",
+      "Route": "js/Scripts/Modais/modais.js",
+      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Modais\\modais.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1952,7 +1928,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3"
+          "Value": "1237"
         },
         {
           "Name": "Content-Type",
@@ -1960,11 +1936,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+          "Value": "\"Hdy1RTZRJwtuFOK2NWMu2PSSI6MWemUqgo+sNW9lWl8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 11:44:27 GMT"
+          "Value": "Mon, 25 Nov 2024 15:34:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1974,7 +1950,216 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+          "Value": "sha256-Hdy1RTZRJwtuFOK2NWMu2PSSI6MWemUqgo+sNW9lWl8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Scripts/Modais/modais.ts5jgej8po.js",
+      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Modais\\modais.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hdy1RTZRJwtuFOK2NWMu2PSSI6MWemUqgo+sNW9lWl8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 15:34:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ts5jgej8po"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Scripts/Modais/modais.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hdy1RTZRJwtuFOK2NWMu2PSSI6MWemUqgo+sNW9lWl8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Scripts/Requisicoes/requisicoes.js",
+      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Requisicoes\\requisicoes.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1042"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6s8epWDOq+cIJon90l0lP/pCkHVlnecRmXOD/cbCYnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 15:46:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6s8epWDOq+cIJon90l0lP/pCkHVlnecRmXOD/cbCYnM="
+        }
+      ]
+    },
+    {
+      "Route": "js/Scripts/Requisicoes/requisicoes.mhbzbwk0q0.js",
+      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Requisicoes\\requisicoes.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1042"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6s8epWDOq+cIJon90l0lP/pCkHVlnecRmXOD/cbCYnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 15:46:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mhbzbwk0q0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Scripts/Requisicoes/requisicoes.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6s8epWDOq+cIJon90l0lP/pCkHVlnecRmXOD/cbCYnM="
+        }
+      ]
+    },
+    {
+      "Route": "js/Scripts/Selecao/selecao.1m5j3relwc.js",
+      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Selecao\\selecao.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfKHnhL4uNcCrI4IFgqJutyYqsZtUvNcjv52ZV7CifM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 15:34:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1m5j3relwc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Scripts/Selecao/selecao.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KfKHnhL4uNcCrI4IFgqJutyYqsZtUvNcjv52ZV7CifM="
+        }
+      ]
+    },
+    {
+      "Route": "js/Scripts/Selecao/selecao.js",
+      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Selecao\\selecao.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfKHnhL4uNcCrI4IFgqJutyYqsZtUvNcjv52ZV7CifM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 15:34:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KfKHnhL4uNcCrI4IFgqJutyYqsZtUvNcjv52ZV7CifM="
         }
       ]
     },
@@ -2057,88 +2242,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/submits.3r8b2a0bt1.js",
-      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\submits.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 11:44:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3r8b2a0bt1"
-        },
-        {
-          "Name": "label",
-          "Value": "js/submits.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
-        }
-      ]
-    },
-    {
-      "Route": "js/submits.js",
-      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\submits.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 11:44:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
         }
       ]
     },

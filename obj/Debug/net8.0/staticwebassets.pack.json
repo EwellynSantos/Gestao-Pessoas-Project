@@ -17,20 +17,24 @@
       "PackagePath": "staticwebassets\\imagens\\user.png"
     },
     {
-      "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\modais.js",
-      "PackagePath": "staticwebassets\\js\\modais.js"
+      "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Filtros\\filtro.js",
+      "PackagePath": "staticwebassets\\js\\Scripts\\Filtros\\filtro.js"
     },
     {
-      "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\select.js",
-      "PackagePath": "staticwebassets\\js\\select.js"
+      "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Modais\\modais.js",
+      "PackagePath": "staticwebassets\\js\\Scripts\\Modais\\modais.js"
+    },
+    {
+      "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Requisicoes\\requisicoes.js",
+      "PackagePath": "staticwebassets\\js\\Scripts\\Requisicoes\\requisicoes.js"
+    },
+    {
+      "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Selecao\\selecao.js",
+      "PackagePath": "staticwebassets\\js\\Scripts\\Selecao\\selecao.js"
     },
     {
       "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
-      "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\submits.js",
-      "PackagePath": "staticwebassets\\js\\submits.js"
     },
     {
       "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\lib\\bootstrap\\LICENSE",

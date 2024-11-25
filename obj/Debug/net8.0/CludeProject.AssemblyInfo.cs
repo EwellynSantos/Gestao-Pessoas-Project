@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CludeProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55d741f797266e441dfbac377853905440cb667a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25272332391cf695b252944408f9ac907a075196")]
 [assembly: System.Reflection.AssemblyProductAttribute("CludeProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CludeProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

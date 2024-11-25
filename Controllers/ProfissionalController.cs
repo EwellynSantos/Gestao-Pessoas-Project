@@ -27,12 +27,14 @@ namespace CludeProject.Controllers
                 var especialidades = _context.Especialidades.ToList();
                 ViewBag.Especialidades = especialidades;
 
+                
+
                 return View();
 
             } 
             catch (Exception ex)
             {
-                ViewBag.ErrorMessage = "Ocorreu um erro ao carregar os profissionais.";
+                TempData["ErrorMessage"] = "Erro ao realizar a operação.";
                 return View(new List<ProfissionalModel>());
             }
             
@@ -47,11 +49,12 @@ namespace CludeProject.Controllers
                 {
                     _context.Profissionals.Add(profissional);
                     _context.SaveChanges();
+                    TempData["SuccessMessage"] = "Profissional cadastrado com sucesso!";
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
                 {
-                    ViewBag.ErrorMessage = "Ocorreu um erro ao criar o profissional: " + ex.Message;
+                    TempData["ErrorMessage"] = "Erro ao cadastrar profissional" + ex.Message;
                     return View(profissional);
                 }                  
             }
@@ -87,12 +90,13 @@ namespace CludeProject.Controllers
                 {
                     _context.Update(profissional);
                     _context.SaveChanges();
+                    TempData["SuccessMessage"] = "Profissional editado com sucesso!";
                     return RedirectToAction("Index");
 
                 } 
                 catch (Exception ex)
                 {
-                    ViewBag.ErrorMessage = "Ocorreu um erro ao editar o profissional: " + ex.Message;
+                    TempData["ErrorMessage"] = "Erro ao editar profissional" + ex.Message;
                     return View(profissional);
                 }
             }
@@ -128,11 +132,12 @@ namespace CludeProject.Controllers
             {
                 _context.Profissionals.Remove(profissional);
                 _context.SaveChanges();
+                TempData["SuccessMessage"] = "Profissional excluído com sucesso!";
                 return RedirectToAction("Index");
             }
             catch (Exception ex)
             {
-                ViewBag.ErrorMessage = "Ocorreu um erro ao excluir o profissional: " + ex.Message;
+                TempData["ErrorMessage"] = "Erro ao excluir profissional." + ex.Message;
                 return View(profissional);
             }
         }

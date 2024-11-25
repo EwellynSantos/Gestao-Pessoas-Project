@@ -1,10 +1,11 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\imagens\user.png
-wwwroot\js\modais.js
-wwwroot\js\select.js
+wwwroot\js\Scripts\Filtros\filtro.js
+wwwroot\js\Scripts\Modais\modais.js
+wwwroot\js\Scripts\Requisicoes\requisicoes.js
+wwwroot\js\Scripts\Selecao\selecao.js
 wwwroot\js\site.js
-wwwroot\js\submits.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

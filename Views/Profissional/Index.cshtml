@@ -12,7 +12,21 @@
     @Html.Partial("_DeleteModal", profissional)
 }
 
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
 
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
 
 <div class="container mt-5">
     <div class="d-flex justify-content-between mb-4">
@@ -23,13 +37,20 @@
             <ul class="dropdown-menu" aria-labelledby="filterDropdown">
                 <li class="dropdown-header text-muted">FILTRAR POR:</li>
                 <li><a class="dropdown-item filter-option" href="#" data-filter="all">Todos</a></li>
-                @foreach (var especialidade in ViewBag.Especialidades as List<CludeProject.Models.EspecialidadeModel>)
+                @if (!(ViewBag.Especialidades is List<CludeProject.Models.EspecialidadeModel> especialidades) || !especialidades.Any())
                 {
-                    <li>
-                        <a class="dropdown-item filter-option" href="#" data-filter="@especialidade.Id">
-                            @especialidade.Nome
-                        </a>
-                    </li>
+                   <li>Especialidade não cadastrada.</li>   
+                } 
+                else 
+                {
+                    @foreach (var especialidade in ViewBag.Especialidades as List<CludeProject.Models.EspecialidadeModel>)
+                    {
+                        <li>
+                            <a class="dropdown-item filter-option" href="#" data-filter="@especialidade.Id">
+                                @especialidade.Nome
+                            </a>
+                        </li>
+                    }
                 }
             </ul>
         </div>
@@ -51,28 +72,37 @@
                 </tr>
             </thead>
              <tbody>
-                @foreach (var profissional in profissionais)
+                @if (profissionais == null || !profissionais.Any())
                 {
                     <tr>
-                        <td>@profissional.Id</td>
-                        <td>@profissional.Nome</td>
-                        <td>@profissional.Especialidade?.Nome</td>
-                        <td>@profissional.Especialidade?.TipoDocumento</td>
-                        <td>@profissional.NumeroDocumento</td>
-                        <td>
-                            <div class="dropdown dropstart">
-                                <button class="btn btn-link p-0 border-0 bg-transparent no-focus" type="button" id="dropdownActions" data-bs-toggle="dropdown" aria-expanded="false" >
-                                    <i class="bi bi-three-dots-vertical focus:outline-none" style="color: black;"></i>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownActions">
-                                    <li class="dropdown-header text-muted">AÇÕES</li>
-                                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#editModal" onclick="openEditModal(@profissional.Id, '@profissional.Nome', '@profissional.Especialidade?.Nome')">Editar</a></li>
-                                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal-@profissional.Id" data-id="@profissional.Id" onclick="setDeleteId(@profissional.Id)">Excluir</a></li>
-                                </ul>
-                            </div>
-                        </td>
-
+                        <td colspan="6" class="text-center">Profissionais não cadastrados.</td>
                     </tr>
+                }
+                else
+                {
+                    @foreach (var profissional in profissionais)
+                    {
+                        <tr data-specialty-id="@profissional.Especialidade?.Id">
+                            <td>@profissional.Id</td>
+                            <td>@profissional.Nome</td>
+                            <td data-specialty-id="@profissional.Especialidade?.Id">@profissional.Especialidade?.Nome</td>
+                            <td>@profissional.Especialidade?.TipoDocumento</td>
+                            <td>@profissional.NumeroDocumento</td>
+                            <td>
+                                <div class="dropdown dropstart">
+                                    <button class="btn btn-link p-0 border-0 bg-transparent no-focus" type="button" id="dropdownActions" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-three-dots-vertical focus:outline-none" style="color: black;"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownActions">
+                                        <li class="dropdown-header text-muted">AÇÕES</li>
+                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#editModal" onclick="openEditModal(@profissional.Id, '@profissional.Nome', '@profissional.Especialidade?.Nome')">Editar</a></li>
+                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal-@profissional.Id" data-id="@profissional.Id" onclick="setDeleteId(@profissional.Id)">Excluir</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+
+                        </tr>
+                    }
                 }
              </tbody> 
         </table>
@@ -98,4 +128,7 @@
     </nav>
 </div>
 
-<script src="~/js/modais.js"></script>
+<script src="~/js/Scripts/Modais/modais.js"></script>
+<script src="~/js/Scripts/Requisicoes/requisicoes.js"></script>
+<script src="~/js/Scripts/Filtros/filtro.js"></script>
+<script src="~/js/Scripts/Selecao/selecao.js"></script>
