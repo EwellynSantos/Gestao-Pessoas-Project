@@ -49,26 +49,26 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 ---
 ## Dependências a serem instaladas
 
-dotnet add package Microsoft.EntityFrameworkCore
-dotnet add package Microsoft.EntityFrameworkCore.Sqlite
-dotnet add package Microsoft.EntityFrameworkCore.Tools
+- dotnet add package Microsoft.EntityFrameworkCore
+- dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+- dotnet add package Microsoft.EntityFrameworkCore.Tools
 
 ---
 
 ## 📂 Estrutura do Projeto
 A aplicação segue o padrão MVC, com a seguinte organização de pastas:
 
-Projeto/
-├── Controllers/        -> Controladores da aplicação
-├── Models/             -> Modelos de domínio e regras de validação
-├── Views/              -> Arquivos de interface (HTML com Razor)
-│   ├── Shared/         -> Partes compartilhadas, como Layouts e Partials
-├── wwwroot/            -> Arquivos estáticos (CSS, JS, Imagens)
-│   ├── css/            -> Estilos personalizados
-│   ├── js/             -> Scripts personalizados
-│   └── lib/            -> Bibliotecas externas (Bootstrap, etc.)
-├── appsettings.json    -> Configurações do projeto
-└── Program.cs          -> Arquivo principal de configuração
+- Projeto/
+- ├── Controllers/        -> Controladores da aplicação
+- ├── Models/             -> Modelos de domínio e regras de validação
+- ├── Views/              -> Arquivos de interface (HTML com Razor)
+- │   ├── Shared/         -> Partes compartilhadas, como Layouts e Partials
+- ├── wwwroot/            -> Arquivos estáticos (CSS, JS, Imagens)
+- │   ├── css/            -> Estilos personalizados
+- │   ├── js/             -> Scripts personalizados
+- │   └── lib/            -> Bibliotecas externas (Bootstrap, etc.)
+- ├── appsettings.json    -> Configurações do projeto
+- └── Program.cs          -> Arquivo principal de configuração
 
 ---
 
