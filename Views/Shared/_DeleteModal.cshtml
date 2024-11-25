@@ -1,6 +1,6 @@
 ﻿@model CludeProject.Models.ProfissionalModel
 
-<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+<div class="modal fade" id="deleteModal-@Model.Id" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -8,11 +8,15 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p>Tem certeza que deseja excluir o profissional @Model.Nome (@Model.Especialidade?.TipoDocumento @Model.NumeroDocumento)? Essa ação não poderá ser desfeita!</p>
+                <form id="deleteForm" method="post" action="@Url.Action("Delete", "Profissional")">
+                    <input type="hidden" id="profissionalId" name="Id" value="@Model.Id">
+                    <p>Tem certeza que deseja excluir o profissional @Model.Nome (@Model.Especialidade?.TipoDocumento @Model.NumeroDocumento)? Essa ação não poderá ser desfeita!</p>
+                </form>
+               
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-danger" id="confirmDelete">Excluir</button>
+                <button type="submit" class="btn btn-danger" id="saveDelete">Excluir</button>
             </div>
         </div>
     </div>

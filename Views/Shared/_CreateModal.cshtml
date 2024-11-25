@@ -1,6 +1,5 @@
 ﻿@model CludeProject.Models.ProfissionalModel
 
-
 <div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -16,11 +15,18 @@
                     </div>
                     <div class="mb-3">
                         <label for="especialidadeCreate" class="form-label">Especialidade</label>
-                        <input type="text" class="form-control" id="especialidadeCreate" name="especialidade" placeholder="Selecione a especialidade" required>
+                        <select class="form-select" id="especialidade" name="EspecialidadeId" required>
+                            <option value="">Selecione uma Especialidade</option>
+
+                            @foreach (var especialidade in ViewBag.Especialidades as List<CludeProject.Models.EspecialidadeModel>)
+                            {
+                                <option value="@especialidade.Id" data-tipoDocumento="@especialidade.TipoDocumento">@especialidade.Nome</option>
+                            }
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="tipoDocumentoCreate" class="form-label">Tipo do Documento</label>
-                        <input type="text" class="form-control" id="tipoDocumentoCreate" name="tipoDocumento" placeholder="Digite o tipo" required>
+                        <input type="text" class="form-control" id="tipoDocumento" name="tipoDocumento" placeholder="Digite o tipo" readonly>
                     </div>
                     <div class="mb-3">
                         <label for="numeroDocumentoCreate" class="form-label">Número do Documento</label>
@@ -30,7 +36,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-add-custom">Salvar</button>
+                <button type="submit" class="btn btn-add-custom" id="saveCreate">Salvar</button>
             </div>
         </div>
     </div>

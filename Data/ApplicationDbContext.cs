@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CludeProject.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace CludeProject.Models
+namespace CludeProject.Data
 {
     public class ApplicationDbContext : DbContext
     {

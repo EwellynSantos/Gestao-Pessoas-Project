@@ -1,4 +1,5 @@
-﻿using CludeProject.Models;
+﻿using CludeProject.Data;
+using CludeProject.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

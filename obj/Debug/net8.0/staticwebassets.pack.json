@@ -21,8 +21,16 @@
       "PackagePath": "staticwebassets\\js\\modais.js"
     },
     {
+      "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\select.js",
+      "PackagePath": "staticwebassets\\js\\select.js"
+    },
+    {
       "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\submits.js",
+      "PackagePath": "staticwebassets\\js\\submits.js"
     },
     {
       "Id": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\lib\\bootstrap\\LICENSE",

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CludeProject.Views.Shared
 {
-    public class _DeleteModalPartialModel : PageModel
+    public class _DeleteModalModel : PageModel
     {
         public void OnGet()
         {

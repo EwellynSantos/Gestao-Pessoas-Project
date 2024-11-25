@@ -8,23 +8,28 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form id="editForm">
-                    <input type="hidden" id="profissionalId" value="@Model.Id">
+                <form id="editForm" method="post" action="@Url.Action("Edit", "Profissional")">
+                    <input type="hidden" id="profissionalId" name="Id" value="@Model.Id">
                     <div class="mb-3">
                         <label for="nome" class="form-label">Nome do Profissional</label>
                         <input type="text" class="form-control" id="nome" name="nome" value="@Model.Nome">
                     </div>
                     <div class="mb-3">
                         <label for="especialidade" class="form-label">Especialidade</label>
-                        <input type="text" class="form-control" id="especialidade" name="especialidade" value="@Model.Especialidade?.Nome">
+                        <select class="form-select" id="especialidadeEdit" name="EspecialidadeId" required>
+                            @foreach (var especialidade in ViewBag.Especialidades as List<CludeProject.Models.EspecialidadeModel>)
+                            {
+                                <option value="@especialidade.Id" data-tipoDocumento="@especialidade.TipoDocumento" >@especialidade.Nome</option>
+                            }
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="tipoDocumento" class="form-label">Tipo do Documento</label>
-                        <input type="text" class="form-control" id="tipodocumento" name="tipodocumento" value="@Model.Especialidade?.TipoDocumento">
+                        <input type="text" class="form-control" id="tipoDocumentoEdit" name="TipoDocumento" value="@Model.Especialidade?.TipoDocumento" readonly>
                     </div>
                     <div class="mb-3">
                         <label for="numeroDocumento" class="form-label">Número do Documento</label>
-                        <input type="text" class="form-control" id="especialidade" name="especialidade" value="@Model.NumeroDocumento">
+                        <input type="text" class="form-control" id="numeroDocumentoEdit" name="numeroDocumento" value="@Model.NumeroDocumento">
                     </div>
                 </form>
             </div>

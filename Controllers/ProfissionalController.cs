@@ -1,4 +1,5 @@
-﻿using CludeProject.Models;
+﻿using CludeProject.Data;
+using CludeProject.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,8 +22,10 @@ namespace CludeProject.Controllers
                 var profissionais = _context.Profissionals
                     .Include(p => p.Especialidade)
                     .ToList();
-
                 ViewData["Profissionais"] = profissionais;
+
+                var especialidades = _context.Especialidades.ToList();
+                ViewBag.Especialidades = especialidades;
 
                 return View();
 
@@ -71,7 +74,6 @@ namespace CludeProject.Controllers
 
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, ProfissionalModel profissional)
         {
             if (id != profissional.Id)
@@ -112,7 +114,6 @@ namespace CludeProject.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
             var profissional = _context.Profissionals

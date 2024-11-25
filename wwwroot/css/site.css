@@ -27,15 +27,37 @@ body {
     background-color: #015958;
 }
 
-.btn-filter-custom {
+.btn-filter-custom{
     background-color: rgba(1, 89, 88, 0.25);
+    font-weight: 600;
     color: #015958;
     border: none;
+}
+
+.dropdown-item.filter-option:hover {
+    background-color: rgba(1, 89, 88, 0.25);
+    color: #015958;
+}
+
+.dropdown-item.filter-option:active {
+    background-color: #015958;
+    color: white;
+}
+
+.dropdown-header.text-muted {
+    color: #B0B0B0;
+    font-size: 12px; 
+}
+
+.dropdown-menu {
+    max-height: 160px;
+    overflow-y: auto;
 }
 
 .btn-add-custom {
     background-color: #015958;
     color: white;
+    font-weight: 600;
 }
 
 .pagination .page-link {
