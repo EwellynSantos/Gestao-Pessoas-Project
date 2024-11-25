@@ -1,6 +1,6 @@
 # Gestão de Profissionais
 
-![image](https://github.com/user-attachments/assets/612103df-68ad-478c-aee5-788fa12d8379)
+![image](https://github.com/user-attachments/assets/dbe535f9-3e4e-49d0-b7ac-eece3c6604b9)
 
 Olá! 👋
 
