@@ -37,7 +37,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
 2. **Navegue até a Pasta do Projeto**
    ```bash
-   cd CludeProject
+   cd Gestao-Pessoas-Project
 
 3. **Restaure as Dependências**
    ```bash
