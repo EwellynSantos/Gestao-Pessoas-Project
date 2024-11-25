@@ -43,8 +43,10 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
    ```bash
    dotnet restore
 
-4. **Compile o Projeto**
-![image](https://github.com/user-attachments/assets/e2339e30-2668-49fc-985d-1ab9396351be)
+4. **Restaure as Dependências**
+   ```bash
+   dotnet run
+
 
 ---
 ## Dependências a serem instaladas
