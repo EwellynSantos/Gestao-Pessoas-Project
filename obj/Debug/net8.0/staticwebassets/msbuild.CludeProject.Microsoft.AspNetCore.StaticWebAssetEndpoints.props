@@ -51,14 +51,14 @@
     <StaticWebAssetEndpoint Include="_content/CludeProject/js/Scripts/Filtros/filtro.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Scripts\Filtros\filtro.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp\u002BwTuCa8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1504"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp\u002BwTuCa8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Nov 2024 16:22:46 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fFruTB4JKRjqK9kZcDOYdULPRhO8lhEEOmMRx7hLP6g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1051"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fFruTB4JKRjqK9kZcDOYdULPRhO8lhEEOmMRx7hLP6g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Nov 2024 16:24:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/CludeProject/js/Scripts/Filtros/filtro.m93yl26pz0.js">
+    <StaticWebAssetEndpoint Include="_content/CludeProject/js/Scripts/Filtros/filtro.kwj3ibohpe.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Scripts\Filtros\filtro.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m93yl26pz0"},{"Name":"integrity","Value":"sha256-9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp\u002BwTuCa8="},{"Name":"label","Value":"_content/CludeProject/js/Scripts/Filtros/filtro.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1504"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp\u002BwTuCa8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Nov 2024 16:22:46 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kwj3ibohpe"},{"Name":"integrity","Value":"sha256-fFruTB4JKRjqK9kZcDOYdULPRhO8lhEEOmMRx7hLP6g="},{"Name":"label","Value":"_content/CludeProject/js/Scripts/Filtros/filtro.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1051"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022fFruTB4JKRjqK9kZcDOYdULPRhO8lhEEOmMRx7hLP6g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Nov 2024 16:24:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CludeProject/js/Scripts/Modais/modais.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Scripts\Modais\modais.js'))</AssetFile>
@@ -72,17 +72,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ts5jgej8po"},{"Name":"integrity","Value":"sha256-Hdy1RTZRJwtuFOK2NWMu2PSSI6MWemUqgo\u002BsNW9lWl8="},{"Name":"label","Value":"_content/CludeProject/js/Scripts/Modais/modais.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1237"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Hdy1RTZRJwtuFOK2NWMu2PSSI6MWemUqgo\u002BsNW9lWl8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Nov 2024 15:34:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CludeProject/js/Scripts/Requisicoes/requisicoes.4n0ijz2o3x.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Scripts\Requisicoes\requisicoes.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4n0ijz2o3x"},{"Name":"integrity","Value":"sha256-wFKjHmQh1WtrlKpGb1qxT/dbrGmhlx8dfqE4pQ3zUyo="},{"Name":"label","Value":"_content/CludeProject/js/Scripts/Requisicoes/requisicoes.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1229"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022wFKjHmQh1WtrlKpGb1qxT/dbrGmhlx8dfqE4pQ3zUyo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Nov 2024 19:18:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CludeProject/js/Scripts/Requisicoes/requisicoes.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Scripts\Requisicoes\requisicoes.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6s8epWDOq\u002BcIJon90l0lP/pCkHVlnecRmXOD/cbCYnM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1042"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226s8epWDOq\u002BcIJon90l0lP/pCkHVlnecRmXOD/cbCYnM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Nov 2024 15:46:04 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/CludeProject/js/Scripts/Requisicoes/requisicoes.mhbzbwk0q0.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Scripts\Requisicoes\requisicoes.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mhbzbwk0q0"},{"Name":"integrity","Value":"sha256-6s8epWDOq\u002BcIJon90l0lP/pCkHVlnecRmXOD/cbCYnM="},{"Name":"label","Value":"_content/CludeProject/js/Scripts/Requisicoes/requisicoes.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1042"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00226s8epWDOq\u002BcIJon90l0lP/pCkHVlnecRmXOD/cbCYnM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Nov 2024 15:46:04 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wFKjHmQh1WtrlKpGb1qxT/dbrGmhlx8dfqE4pQ3zUyo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1229"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022wFKjHmQh1WtrlKpGb1qxT/dbrGmhlx8dfqE4pQ3zUyo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Nov 2024 19:18:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CludeProject/js/Scripts/Selecao/selecao.1m5j3relwc.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Scripts\Selecao\selecao.js'))</AssetFile>

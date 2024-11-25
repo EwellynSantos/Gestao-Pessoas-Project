@@ -1,18 +1,21 @@
 ﻿
 //Deletar
 document.addEventListener('DOMContentLoaded', function () {
-
     document.querySelectorAll('.btn-danger').forEach(function (button) {
         button.addEventListener('click', function (event) {
             event.preventDefault();
 
-            var id = document.getElementById('profissionalId').value;
+            
+            var profissionalId = button.getAttribute('data-profissional-id');
 
-            if (id) {
+            
+            var input = document.getElementById('profissionalId-' + profissionalId);
+            var form = input.closest('form'); // O formulário associado a este campo
 
-                document.getElementById('deleteForm').submit();
+            if (form) {
+                form.submit(); 
             } else {
-                console.error("O Id do profissional não foi encontrado.");
+                console.error("Formulário não encontrado para o ID:", profissionalId);
             }
         });
     });

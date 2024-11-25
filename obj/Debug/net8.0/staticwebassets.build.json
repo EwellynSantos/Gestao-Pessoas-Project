@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8hsaoiUANFnDOFVeamRXeOMutTbkSxBm9OiXxFug19c=",
+  "Hash": "cpoe6/Or9//pjWuI4h2Nxz2OtXsyhZLgT/1bjVF9yRA=",
   "Source": "CludeProject",
   "BasePath": "_content/CludeProject",
   "Mode": "Default",
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "m93yl26pz0",
-      "Integrity": "9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp+wTuCa8=",
+      "Fingerprint": "kwj3ibohpe",
+      "Integrity": "fFruTB4JKRjqK9kZcDOYdULPRhO8lhEEOmMRx7hLP6g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Scripts\\Filtros\\filtro.js"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mhbzbwk0q0",
-      "Integrity": "6s8epWDOq+cIJon90l0lP/pCkHVlnecRmXOD/cbCYnM=",
+      "Fingerprint": "4n0ijz2o3x",
+      "Integrity": "wFKjHmQh1WtrlKpGb1qxT/dbrGmhlx8dfqE4pQ3zUyo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Scripts\\Requisicoes\\requisicoes.js"
@@ -1846,7 +1846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1504"
+          "Value": "1051"
         },
         {
           "Name": "Content-Type",
@@ -1854,11 +1854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp+wTuCa8=\""
+          "Value": "\"fFruTB4JKRjqK9kZcDOYdULPRhO8lhEEOmMRx7hLP6g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:22:46 GMT"
+          "Value": "Mon, 25 Nov 2024 16:24:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1868,12 +1868,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp+wTuCa8="
+          "Value": "sha256-fFruTB4JKRjqK9kZcDOYdULPRhO8lhEEOmMRx7hLP6g="
         }
       ]
     },
     {
-      "Route": "js/Scripts/Filtros/filtro.m93yl26pz0.js",
+      "Route": "js/Scripts/Filtros/filtro.kwj3ibohpe.js",
       "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Filtros\\filtro.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1883,7 +1883,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1504"
+          "Value": "1051"
         },
         {
           "Name": "Content-Type",
@@ -1891,11 +1891,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp+wTuCa8=\""
+          "Value": "\"fFruTB4JKRjqK9kZcDOYdULPRhO8lhEEOmMRx7hLP6g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:22:46 GMT"
+          "Value": "Mon, 25 Nov 2024 16:24:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1905,7 +1905,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m93yl26pz0"
+          "Value": "kwj3ibohpe"
         },
         {
           "Name": "label",
@@ -1913,7 +1913,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9p0GMlRndYzMUWc39X8dvRZiNSalTPJPxuOp+wTuCa8="
+          "Value": "sha256-fFruTB4JKRjqK9kZcDOYdULPRhO8lhEEOmMRx7hLP6g="
         }
       ]
     },
@@ -2000,6 +2000,51 @@
       ]
     },
     {
+      "Route": "js/Scripts/Requisicoes/requisicoes.4n0ijz2o3x.js",
+      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Requisicoes\\requisicoes.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wFKjHmQh1WtrlKpGb1qxT/dbrGmhlx8dfqE4pQ3zUyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 19:18:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4n0ijz2o3x"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Scripts/Requisicoes/requisicoes.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wFKjHmQh1WtrlKpGb1qxT/dbrGmhlx8dfqE4pQ3zUyo="
+        }
+      ]
+    },
+    {
       "Route": "js/Scripts/Requisicoes/requisicoes.js",
       "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Requisicoes\\requisicoes.js",
       "Selectors": [],
@@ -2010,7 +2055,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1042"
+          "Value": "1229"
         },
         {
           "Name": "Content-Type",
@@ -2018,11 +2063,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6s8epWDOq+cIJon90l0lP/pCkHVlnecRmXOD/cbCYnM=\""
+          "Value": "\"wFKjHmQh1WtrlKpGb1qxT/dbrGmhlx8dfqE4pQ3zUyo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 15:46:04 GMT"
+          "Value": "Mon, 25 Nov 2024 19:18:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2032,52 +2077,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6s8epWDOq+cIJon90l0lP/pCkHVlnecRmXOD/cbCYnM="
-        }
-      ]
-    },
-    {
-      "Route": "js/Scripts/Requisicoes/requisicoes.mhbzbwk0q0.js",
-      "AssetFile": "C:\\Users\\Pichau\\Documents\\PROJETOS\\ProjetoEntrevista\\CludeProject\\CludeProject\\wwwroot\\js\\Scripts\\Requisicoes\\requisicoes.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1042"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6s8epWDOq+cIJon90l0lP/pCkHVlnecRmXOD/cbCYnM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 15:46:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mhbzbwk0q0"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Scripts/Requisicoes/requisicoes.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6s8epWDOq+cIJon90l0lP/pCkHVlnecRmXOD/cbCYnM="
+          "Value": "sha256-wFKjHmQh1WtrlKpGb1qxT/dbrGmhlx8dfqE4pQ3zUyo="
         }
       ]
     },

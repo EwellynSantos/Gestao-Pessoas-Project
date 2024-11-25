@@ -5,11 +5,11 @@
     var profissionais = ViewData["Profissionais"] as List<ProfissionalModel>;
 }
 
-@Html.Partial("_CreateModal")
+@await Html.PartialAsync("_CreateModal")
 @foreach (var profissional in profissionais)
 {
-    @Html.Partial("_EditModal", profissional)
-    @Html.Partial("_DeleteModal", profissional)
+    @await Html.PartialAsync("_EditModal", profissional)
+    @await Html.PartialAsync("_DeleteModal", profissional)
 }
 
 @if (TempData["SuccessMessage"] != null)

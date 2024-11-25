@@ -34,7 +34,7 @@ namespace CludeProject.Controllers
             } 
             catch (Exception ex)
             {
-                TempData["ErrorMessage"] = "Erro ao realizar a operação.";
+                TempData["ErrorMessage"] = "Erro ao realizar a operação." + ex.Message;
                 return View(new List<ProfissionalModel>());
             }
             

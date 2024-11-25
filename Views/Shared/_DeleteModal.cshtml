@@ -9,14 +9,14 @@
             </div>
             <div class="modal-body">
                 <form id="deleteForm" method="post" action="@Url.Action("Delete", "Profissional")">
-                    <input type="hidden" id="profissionalId" name="Id" value="@Model.Id">
+                    <input type="hidden" id="profissionalId-@Model.Id" name="Id" value="@Model.Id">
                     <p>Tem certeza que deseja excluir o profissional @Model.Nome (@Model.Especialidade?.TipoDocumento @Model.NumeroDocumento)? Essa ação não poderá ser desfeita!</p>
                 </form>
                
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="submit" class="btn btn-danger" id="saveDelete">Excluir</button>
+                <button type="submit" class="btn btn-danger" data-profissional-id="@Model.Id" id="saveDelete">Excluir</button>
             </div>
         </div>
     </div>
